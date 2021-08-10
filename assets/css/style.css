@@ -530,7 +530,7 @@ section {
 }
 
 .clients .client-logo img {
-  height: 40px;
+  height: 30px;
 }
 
 .clients .client-logo:hover img {
@@ -556,6 +556,8 @@ section {
 
 .about .content p {
   margin-bottom: 0;
+
+  text-align: justify;
 }
 
 .about .content .icon-box {
