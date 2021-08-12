@@ -554,11 +554,15 @@ section {
   color: #213b52;
 }
 
-.about .content p {
+.about .content h6 {
   margin-bottom: 0;
-
+  color: #213b52a2;
   text-align: justify;
+  
+
 }
+
+
 
 .about .content .icon-box {
   margin-top: 25px;
@@ -677,6 +681,7 @@ section {
 
 .services .card-text {
   color: #5e5e5e;
+  text-align: justify;
 }
 
 .services .read-more a {
@@ -726,6 +731,21 @@ section {
 }
 
 .features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #fdc134;
+}
+
+/* .features .content ol {
+  list-style: georgian;
+  padding: 0;
+} */
+
+.features .content ol li {
+  padding-bottom: 10px;
+}
+
+.features .content ol i {
   font-size: 20px;
   padding-right: 4px;
   color: #fdc134;
